@@ -6,3 +6,4 @@ Apples
 Cake
 Cookies
 Tomatoes
+News
