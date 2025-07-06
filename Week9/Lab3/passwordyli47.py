@@ -34,8 +34,7 @@ for pwd in passwords:
     if not any(c in '$#@' for c in pwd):
         errors.append("missing a special character ($#@)")
 
-    
-    print(f"{pwd}: ", end="") # end="" means not change line in the end
+    pint(f"{pwd}: ", end="") # end="" means not change line in the end
     if not errors:
         print("Correct.")
     else:
